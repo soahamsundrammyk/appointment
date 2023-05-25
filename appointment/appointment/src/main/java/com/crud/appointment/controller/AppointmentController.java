@@ -23,6 +23,10 @@ public class AppointmentController {
 
     @GetMapping("/appointments")
     public List<Appointment> findAllAppointments() {
+
+
+        System.out.println("HE");
+
         return service.getAppointments();
     }
 
