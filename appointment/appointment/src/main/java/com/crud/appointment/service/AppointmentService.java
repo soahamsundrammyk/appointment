@@ -15,7 +15,7 @@ public class AppointmentService {
     private AppointmentRepository repository;
 
     public Appointment saveAppointment(Appointment appointment){
-
+        System.out.println("HU");
         return repository.save(appointment);
 
     }
